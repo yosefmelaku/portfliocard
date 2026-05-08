@@ -1,0 +1,33 @@
+# Image Assets
+
+This folder contains all the images used in the portfolio website.
+
+## Required Images:
+
+1. **profile.jpg** (350x350px) - Main profile photo for hero section
+2. **about-image.jpg** (400x400px) - Professional photo for about section
+3. **og-image.jpg** (1200x630px) - Open Graph image for social sharing
+4. **gibipulse.jpg** (600x400px) - GibiPulse project screenshot
+5. **patient-queue.jpg** (600x400px) - Patient Queue System screenshot
+6. **weather-app.jpg** (600x400px) - Weather App screenshot
+7. **ethio-culture.jpg** (600x400px) - Ethio Culture Website screenshot
+
+## Image Optimization Tips:
+
+- Use WebP format for better compression
+- Optimize images for web (compress to reduce file size)
+- Use appropriate dimensions to avoid unnecessary scaling
+- Consider using a CDN for faster loading
+
+## Placeholder Images:
+
+You can use services like:
+- Unsplash (https://unsplash.com/)
+- Pexels (https://pexels.com/)
+- Lorem Picsum (https://picsum.photos/)
+
+For project screenshots, you can create mockups using:
+- Figma
+- Canva
+- Adobe XD
+- Or take actual screenshots of your projects
