@@ -5,8 +5,10 @@
   "main": "index.html",
   "scripts": {
     "dev": "live-server --port=3000 --open=/",
-    "build": "echo 'No build process needed for static site'",
-    "deploy": "vercel --prod"
+    "build": "node build.js",
+    "build:clean": "rm -rf dist && npm run build",
+    "preview": "live-server dist --port=3001 --open=/",
+    "deploy": "npm run build && vercel --prod ./dist"
   },
   "keywords": [
     "portfolio",
